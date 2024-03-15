@@ -1,0 +1,116 @@
+[
+    {
+        "type": "regular",
+        "period": "yearly",
+        "startTimeStamp": 1710167521995,
+        "id": "c482f88f-bb7d-4be3-83b3-2457163d760d",
+        "user": "Sonja",
+        "sum": 500,
+        "history": [
+            {
+                "user": "Sonja",
+                "accId": "c482f88f-bb7d-4be3-83b3-2457163d760d",
+                "operationDate": "2024-03-11T14:32:01.995Z",
+                "operationType": "Открытие счета",
+                "operationSumm": 500
+            }
+        ],
+        "checked": false,
+        "requiresApproval": false,
+        "requiresClientAction": false,
+        "startDate": {
+            "dd": 11,
+            "mm": 3,
+            "yyyy": 2024
+        },
+        "endDate": {
+            "dd": 11,
+            "mm": 3,
+            "yyyy": 2025
+        },
+        "interest": 1
+    },
+    {
+        "type": "deposit",
+        "period": "monthly",
+        "startTimeStamp": 1710276537787,
+        "id": "bc7adce6-be20-4149-9e09-42c03327a594",
+        "user": "Aleksej",
+        "sum": 600,
+        "history": [
+            {
+                "user": "Aleksej",
+                "accId": "bc7adce6-be20-4149-9e09-42c03327a594",
+                "operationDate": "2024-03-12T20:48:57.787Z",
+                "operationType": "Открытие счета",
+                "operationSumm": 600
+            }
+        ],
+        "checked": false,
+        "requiresApproval": false,
+        "requiresClientAction": false,
+        "startDate": {
+            "dd": 12,
+            "mm": 3,
+            "yyyy": 2024
+        },
+        "endDate": {
+            "dd": 12,
+            "mm": 4,
+            "yyyy": 2024
+        },
+        "interest": 3
+    },
+    {
+        "type": "regular",
+        "period": "yearly",
+        "startTimeStamp": 1710090879172,
+        "id": "85951d3e-19dc-481d-9318-b5d5b6c7c141",
+        "user": "Aleksej",
+        "sum": 0,
+        "history": [
+            {
+                "user": "Aleksej",
+                "accId": "85951d3e-19dc-481d-9318-b5d5b6c7c141",
+                "operationDate": "2024-03-10T17:14:39.175Z",
+                "operationType": "Пополнение счета",
+                "operationSumm": 2500,
+                "summBefore": 600,
+                "summAfter": 3100
+            },
+            {
+                "user": "Aleksej",
+                "accId": "85951d3e-19dc-481d-9318-b5d5b6c7c141",
+                "operationDate": "2024-03-12T20:58:08.252Z",
+                "operationType": "Пополнение счета",
+                "comment": "на открытие депозита",
+                "operationSumm": 600,
+                "summAfter": -100
+            },
+            {
+                "user": "Aleksej",
+                "accId": "85951d3e-19dc-481d-9318-b5d5b6c7c141",
+                "operationDate": "2024-03-12T20:59:06.325Z",
+                "operationType": "Пополнение счета",
+                "comment": "на обед",
+                "operationSumm": 100,
+                "summBefore": -100,
+                "summAfter": 0
+            }
+        ],
+        "checked": false,
+        "requiresApproval": false,
+        "requiresClientAction": false,
+        "startDate": {
+            "dd": 10,
+            "mm": 3,
+            "yyyy": 2024
+        },
+        "endDate": {
+            "dd": 10,
+            "mm": 3,
+            "yyyy": 2025
+        },
+        "interest": 1
+    }
+]

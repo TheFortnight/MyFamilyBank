@@ -1,0 +1,15 @@
+{
+  "name": "familybank",
+  "version": "1.0.0",
+  "description": "Bank for children and their parents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TheFortnight",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.65.1",
+    "uuid": "^9.0.1"
+  }
+}
