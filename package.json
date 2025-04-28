@@ -4,6 +4,7 @@
   "description": "Bank for children and their parents",
   "main": "index.js",
   "scripts": {
+    "start": "node src/telegram/bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "TheFortnight",
